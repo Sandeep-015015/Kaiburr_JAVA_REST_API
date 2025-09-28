@@ -95,7 +95,7 @@ Each screenshot demonstrates the **request** and the **response** from Postman/R
 
 Creates a new task with `name`, `owner`, and `command`.
 
-![Create Task Screenshot](screenshots/1-create-task.png)
+![Create Task Screenshot](screenshots/1-create-task.png.png)
 
 ---
 
@@ -103,7 +103,7 @@ Creates a new task with `name`, `owner`, and `command`.
 
 Executes the shell command for the created task successfully.
 
-![Execute Task Success Screenshot](screenshots/2-execute-task-success.png)
+![Execute Task Success Screenshot](screenshots/2-execute-task-success.png.png)
 
 ---
 
@@ -111,7 +111,7 @@ Executes the shell command for the created task successfully.
 
 Retrieves a list of all tasks.
 
-![Get All Tasks Screenshot](screenshots/3-get-all-tasks.png)
+![Get All Tasks Screenshot](screenshots/3-get-all-tasks.png.png)
 
 ---
 
@@ -119,7 +119,7 @@ Retrieves a list of all tasks.
 
 Retrieves a single task using its ID.
 
-![Get Task by ID Screenshot](screenshots/4-get-task-by-id.png)
+![Get Task by ID Screenshot](screenshots/4-get-task-by-id.png.png)
 
 ---
 
@@ -127,7 +127,7 @@ Retrieves a single task using its ID.
 
 Searches tasks by a substring of the name (case-insensitive).
 
-![Search by Name Screenshot](screenshots/5-search-by-name.png)
+![Search by Name Screenshot](screenshots/5-search-by-name.png.png)
 
 ---
 
@@ -135,4 +135,4 @@ Searches tasks by a substring of the name (case-insensitive).
 
 Deletes an existing task.
 
-![Delete Task Success Screenshot](screenshots/6-delete-task-success.png)
+![Delete Task Success Screenshot](screenshots/6-delete-task-success.png.png)
