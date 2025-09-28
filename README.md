@@ -1,7 +1,3 @@
-Here’s your revised `README.md` in a **clean, professional format** with proper markdown styling, spacing, and emojis for readability:
-
----
-
 # 🚀 Kaiburr Task 1: Java REST API for Task Management
 
 This repository contains the solution for **Task 1**, a RESTful API built with **Java** and **Spring Boot** to manage and execute shell command tasks persisted in **MongoDB**.
@@ -78,4 +74,65 @@ Base URL: **`http://localhost:3000/tasks`**
 | **PUT**    | `/tasks/{taskId}/execute`   | **Execute** the shell command for the specified task. |
 | **DELETE** | `/tasks/{taskId}`           | **Delete** the task with the specified ID.            |
 
+Perfect 👍 — instead of listing the **test cases in a table**, we’ll give each case its own short description + a placeholder for its screenshot.
 
+This style is super clean for GitHub because you can drop in your screenshots later (just replace the image links).
+
+Here’s the revised section of your `README.md`:
+
+---
+
+## ✅ API Testing Screenshots
+
+Below are the screenshots for each API test case.
+Each screenshot demonstrates the **request** and the **response** from Postman/REST Client.
+
+> 📸 **Tip:** Replace the `![Alt text](path/to/image.png)` placeholders with the actual paths to your screenshots (store them in a `screenshots/` folder in your repo).
+
+---
+
+### Create Task
+
+Creates a new task with `name`, `owner`, and `command`.
+
+![Create Task Screenshot](screenshots/1-create-task.png)
+
+---
+
+### Execute Task (Success)
+
+Executes the shell command for the created task successfully.
+
+![Execute Task Success Screenshot](screenshots/2-execute-task-success.png)
+
+---
+
+### Get All Tasks
+
+Retrieves a list of all tasks.
+
+![Get All Tasks Screenshot](screenshots/3-get-all-tasks.png)
+
+---
+
+### Get Task by ID
+
+Retrieves a single task using its ID.
+
+![Get Task by ID Screenshot](screenshots/4-get-task-by-id.png)
+
+---
+
+### Search by Name
+
+Searches tasks by a substring of the name (case-insensitive).
+
+![Search by Name Screenshot](screenshots/5-search-by-name.png)
+
+---
+
+### Delete Task (Success)
+
+Deletes an existing task.
+
+![Delete Task Success Screenshot](screenshots/6-delete-task-success.png)
